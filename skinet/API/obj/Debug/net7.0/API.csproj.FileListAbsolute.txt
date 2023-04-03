@@ -70,3 +70,6 @@ C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0
 C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\Infrastructure.dll
 C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\Infrastructure.pdb
 C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\Core.pdb
+C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
