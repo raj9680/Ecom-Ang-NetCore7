@@ -4,6 +4,7 @@ namespace API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[ApiExplorerSettings(IgnoreApi = true)] // Not Define that it is not an Endpoint/API
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
