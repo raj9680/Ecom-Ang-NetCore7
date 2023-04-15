@@ -34,6 +34,12 @@ namespace Infrastructure.Data
             return await ApplySpecification(spec).ToListAsync();
         }
 
+        // Paging related
+        public async Task<int> CountAsync(ISpecifications<T> spec)
+        {
+            return await ApplySpecification(spec).CountAsync();
+        }
+
         // Spec method
         private IQueryable<T> ApplySpecification(ISpecifications<T> spec)
         {
