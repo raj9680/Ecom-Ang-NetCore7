@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Core.Specifications
 {
     public class ProductSpecParams
@@ -18,5 +13,13 @@ namespace Core.Specifications
         public int? BrandId { get; set; }
         public int? TypeId { get; set; }
         public string Sort { get; set; }
+
+        // For Search
+        private string _search;
+        public string Search
+        {
+            get => _search;
+            set => _search = value.ToLower();
+        }
     }
 }

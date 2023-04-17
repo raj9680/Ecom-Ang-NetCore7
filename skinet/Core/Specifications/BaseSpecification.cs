@@ -14,7 +14,8 @@ namespace Core.Specifications
             Criteria = criteria;
         }
 
-        #region Criteria
+
+#region Criteria
         // For Criteria
         public Expression<Func<T, bool>> Criteria {get; }
 
@@ -26,29 +27,17 @@ namespace Core.Specifications
         {
             Includes.Add(includeExpression);
         }
-        #endregion
+#endregion
 
 
 
 
 
-
-
+#region Sorting
         // For Sorting
         public Expression<Func<T, object>> OrderBy { get; private set; }
 
         public Expression<Func<T, object>> OrderByDescending { get; private set; }
-
-        // For Paging
-        public int Take { get; private set; }
-
-        public int Skip { get; private set; }
-
-        public bool IsPagingEnabled { get; private set; }
-        
-
-        
-        
 
         // Own method for Sorting
         protected void AddOrderBy(Expression<Func<T, object>> orderByExpression)
@@ -60,7 +49,20 @@ namespace Core.Specifications
         {
             OrderByDescending = orderByDescExpression;
         }
+#endregion
 
+        
+        
+        
+        
+#region Paging
+        // For Paging
+        public int Take { get; private set; }
+
+        public int Skip { get; private set; }
+
+        public bool IsPagingEnabled { get; private set; }
+        
 
         // Own method for paging
         protected void ApplyPaging(int skip, int take)
@@ -69,6 +71,7 @@ namespace Core.Specifications
             Take = take;
             IsPagingEnabled = true;
         }
+#endregion
         
     }
 }

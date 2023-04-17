@@ -34,11 +34,15 @@ namespace Infrastructure.Data
             return await ApplySpecification(spec).ToListAsync();
         }
 
-        // Paging related
+
+
+        // For Paging - method to count no. of items return after paging is applied
         public async Task<int> CountAsync(ISpecifications<T> spec)
         {
             return await ApplySpecification(spec).CountAsync();
         }
+
+
 
         // Spec method
         private IQueryable<T> ApplySpecification(ISpecifications<T> spec)

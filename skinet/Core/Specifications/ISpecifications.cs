@@ -12,8 +12,8 @@ namespace Core.Specifications
         Expression<Func<T, object>> OrderByDescending {get; }
 
         // For Pagination
-        int Take { get; }
-        int Skip { get; }
+        int Take { get; } // Take certain amount of products
+        int Skip { get; } // Skip certain amount of products
         bool IsPagingEnabled { get; }
     }
 }

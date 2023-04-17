@@ -10,7 +10,7 @@ namespace Core.Interfaces
         Task<T> GetEntityWithSpec(ISpecifications<T> spec);
         Task<IReadOnlyList<T>> ListAsync(ISpecifications<T> spec);
         
-        // For Paging
+        // For Paging - method to count no. of items return after paging is applied
         Task<int> CountAsync(ISpecifications<T> spec);
     }
 }
