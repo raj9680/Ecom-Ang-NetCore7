@@ -1,5 +1,13 @@
 nav > a{
     text-decoration: none;
+    color: #343a40;
+}
+nav > a.active {
+    color: orange;
+}
+
+header > img {
+    cursor: pointer;
 }
 .cart-no {
     position:absolute;
