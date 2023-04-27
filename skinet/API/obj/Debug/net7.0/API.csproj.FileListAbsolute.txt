@@ -73,3 +73,5 @@ C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0
 C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\raj.kumar\Desktop\angular\Ecom-Ang-NetCore7\skinet\API\bin\Debug\net7.0\StackExchange.Redis.dll

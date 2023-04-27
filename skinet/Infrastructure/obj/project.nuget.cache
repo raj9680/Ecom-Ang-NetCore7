@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yObHQSrDLZE14sIYDoiOKo7pWhni/0LOpqIr0WYLgyH6ssegtCwOGNfNaezTb+NhmFvnnjXej7ZspZeYU0KbLw==",
+  "dgSpecHash": "L30vir+JPYZObkH7WGOJRY3c0i10OsGOO1jTSH0dLUwiKvNl6AuND4yf7pWpLdLm8+p+vJHk8H8uB8HwqNRDiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\angular\\Ecom-Ang-NetCore7\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -21,10 +21,13 @@
     "C:\\Users\\raj.kumar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\raj.kumar\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\raj.kumar\\.nuget\\packages\\stackexchange.redis\\2.6.104\\stackexchange.redis.2.6.104.nupkg.sha512",
+    "C:\\Users\\raj.kumar\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
