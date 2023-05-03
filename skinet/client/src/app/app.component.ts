@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BasketService } from './basket/basket.service';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit{
+
+  constructor(private basketService: BasketService) { }
+  
+  
+  ngOnInit() {
+    const basketId = localStorage.getItem('basket_id');
+    if(basketId)  this.basketService.getBasket(basketId);
+  }
   
 }

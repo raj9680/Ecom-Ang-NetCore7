@@ -19,6 +19,8 @@ const routes: Routes = [
   {path: 'shop', loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule)},
   // End Lazy Loading Shop Module
 
+  {path: 'basket', loadChildren: () => import('./basket/basket.module').then(m => m.BasketModule)},
+  {path: 'checkout', loadChildren: () => import('./checkout/checkout.module').then(m => m.CheckoutModule)},
   {path: '**', redirectTo: '', pathMatch: 'full'},
 ];
 
