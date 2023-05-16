@@ -14,7 +14,11 @@ export class LoadingInterceptor implements HttpInterceptor {
   constructor(private busyService: BusyService) {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
-    this.busyService.busy();
+    // skipping the loader to skip on specific page
+    if(!request.url.includes('emailExists')) {  // emailExists is the api url
+      this.busyService.busy();
+    }
+    
     return next.handle(request).pipe(
       delay(1000),
       finalize(() => this.busyService.idle())

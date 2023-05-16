@@ -12,5 +12,10 @@ namespace Core.Interfaces
         
         // For Paging - method to count no. of items return after paging is applied
         Task<int> CountAsync(ISpecifications<T> spec);
+
+        // For UOW
+        void Add(T entity);
+        void Update(T entity);
+        void Delete(T entity);
     }
 }

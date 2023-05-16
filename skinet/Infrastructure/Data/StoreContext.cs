@@ -1,12 +1,13 @@
 using System.Reflection;
 using Core.Entities;
+using Core.Entities.Order_Aggregate;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data
 {
     public class StoreContext: DbContext
     {
-        public StoreContext(DbContextOptions options) : base(options)
+        public StoreContext(DbContextOptions<StoreContext> options) : base(options)
         {
             
         }
@@ -15,6 +16,12 @@ namespace Infrastructure.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductBrand> ProductBrands {get; set;}
         public DbSet<ProductType> ProductTypes { get; set; }
+
+        #region For Order
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<DeliveryMethod> DeliveryMethods { get; set; }
+        #endregion
 
         //
         protected override void OnModelCreating(ModelBuilder modelBuilder)
