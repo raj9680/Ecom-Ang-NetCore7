@@ -8,7 +8,7 @@
     <ng-container *ngIf="(basketService.basketSource$ | async)  as basket">
         <div class="container">
             <div class="row">
-                <div class="table-responsive">
+                <!-- <div class="table-responsive">
                     <table class="table">
                         <thead class="bg-light text-uppercase">
                             <tr>
@@ -71,7 +71,12 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </div> -->
+                <app-basket-summary
+                    (addItem)="incrementQuantity($event)"
+                    (removeItem)="removeItem($event)"
+                ></app-basket-summary>
+
             </div>
             <div class="row">
                 <div class="col-6 offset-6">

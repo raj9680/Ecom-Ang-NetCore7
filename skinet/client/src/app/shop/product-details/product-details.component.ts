@@ -16,7 +16,8 @@ export class ProductDetailsComponent implements OnInit {
   quantity = 1;
   quantityInBasket = 0;
 
-  constructor(private shopService: ShopService, private activatedRoute: ActivatedRoute, private bcService: BreadcrumbService, private basketService: BasketService) 
+  constructor(private shopService: ShopService, private activatedRoute: ActivatedRoute, private bcService: BreadcrumbService, 
+    private basketService: BasketService) 
   { 
     bcService.set('@productDetails', ' ');
   }

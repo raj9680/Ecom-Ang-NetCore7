@@ -1,0 +1,24 @@
+<table class="table container">
+    <thead>
+      <tr>
+        <th scope="col">Order Id</th>
+        <th scope="col">Order Date</th>
+        <th scope="col">Subtotal</th>
+        <th scope="col">Status</th>
+        <th scope="col">View</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of order">
+        <th scope="row">#{{item.id}}</th>
+        <td>{{item.orderDate | date}}</td>
+        <td>{{item.subTotal | currency}}</td>
+        <td>{{item.status}}</td>
+        <td><a href="/order/{{item.id}}">View Order</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+<pre class="d-none">
+  {{order | json}}
+</pre>

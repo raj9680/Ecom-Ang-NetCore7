@@ -2,11 +2,12 @@
 using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-
+    
     public class BasketController : BaseApiController
     {
         private readonly IBasketRepository _basketRepository;

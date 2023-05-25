@@ -1,7 +1,7 @@
 import * as cuid from "cuid";
 
 export interface BasketItem {
-    id: Number;
+    id: number;
     productName: string;
     price: number;
     quantity: number;
